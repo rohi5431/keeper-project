@@ -60,5 +60,6 @@ src/
   . ✏️ Add edit/update functionality
   . 🖱️ Drag-and-drop for note repositioning
   . 🌙 Dark mode toggle
+
 👨‍💻 Author
   Rohit Kumar
