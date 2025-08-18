@@ -57,7 +57,6 @@ src/
 
 💡 Future Improvements
   . 💾 Save notes to localStorage or a backend
-  . ✏️ Add edit/update functionality
   . 🖱️ Drag-and-drop for note repositioning
   . 🌙 Dark mode toggle
 
