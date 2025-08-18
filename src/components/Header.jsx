@@ -5,7 +5,7 @@ const Header = () => {
   const [menu, setMenu] = useState(false);
   return (
     <>
-     <header className="bg-blue-400 py-3 px-6 shadow-md w-full fixed top-0 left-0 z-10">
+     <header className="bg-gradient-to-b from-[#8e99a6] to-[#6c7a89] py-3 px-6 shadow-md w-full fixed top-0 left-0 z-10">
         <div className='flex justify-between'>
         <img src="/images/keeper.png" alt="" className='w-46 h-15 md:w-46 md:h-13 xs:w-24 xs:h-13'/>
           <div className="md:hidden  flex justify-center align-center">
@@ -19,7 +19,7 @@ const Header = () => {
         </div>
         <nav className="space-x-6 hidden md:flex items-center">
           {['Home', 'About', 'Notes', 'Contact'].map((item, index) => (
-            <a key={index} href="#" style={{ textDecoration: 'none' }} className="text-white text-[20px]  hover:underline hover:bg-green-600 p-1 px-2 rounded-xl">
+            <a key={index} href="#" style={{ textDecoration: 'none' }} className="text-white text-[20px] transition-all duration-300 ease-in-out p-1 hover:bg-[#485460] px-2 rounded-xl">
               {item}
             </a>
           ))}
